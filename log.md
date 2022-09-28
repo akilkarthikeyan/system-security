@@ -7,3 +7,4 @@
 * Ran codeQL(code scanner) on Hostel-Management [link](https://github.com/NandakishorV/Hostel-Management)
 ![image](https://user-images.githubusercontent.com/80710226/192773643-0f150d1f-4aa8-4075-bd37-c4c5e2806bc0.png)
 * Watched FastAPI Tutorial [link](https://www.youtube.com/watch?v=7t2alSnE2-I)
+* Created MultiAPI calls

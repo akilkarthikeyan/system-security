@@ -38,4 +38,4 @@ def get_student_clg(stud:int,clg:int):
     return data,college[clg]["name"]
 
 
-#opentelemetry-instrument --traces_exporter console --metrics_exporter console uvicorn call:app1 --host 127.0.0.1 --port 300
+#opentelemetry-instrument --traces_exporter console --metrics_exporter console uvicorn call:app1 --host 127.0.0.1 --port 3000

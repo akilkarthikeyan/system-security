@@ -1,9 +1,6 @@
 from fastapi import FastAPI,Path
-from fastapi_opentracing import get_opentracing_span_headers
-from fastapi_opentracing.middleware import OpenTracingMiddleware
-
+from opentelemetry.instrumentation.fastapi import FastAPIInstrumentor
 app=FastAPI()
-app.add_middleware(OpenTracingMiddleware)
 students={
     1:{
         "name":"Nandakishor V",
@@ -28,3 +25,6 @@ def get_student(student_id: int=Path(None)):
     if(student_id>2 or student_id<1):
         return "Enter a value 1 or 2"
     return students[student_id]["name"]
+
+
+#opentelemetry-instrument --traces_exporter console --metrics_exporter console uvicorn fastapi-demo:app --host 127.0.0.1 --port 8000

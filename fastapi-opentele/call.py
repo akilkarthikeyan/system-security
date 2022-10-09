@@ -1,10 +1,10 @@
 from fastapi import FastAPI,Path
 import requests
-from fastapi_opentracing import get_opentracing_span_headers
-from fastapi_opentracing.middleware import OpenTracingMiddleware
+from opentelemetry.instrumentation.fastapi import FastAPIInstrumentor
+
+
 
 app1=FastAPI()
-app1.add_middleware(OpenTracingMiddleware)
 college={
     1:{
         "name":"SSN College of Engineering",
@@ -38,6 +38,4 @@ def get_student_clg(stud:int,clg:int):
     return data,college[clg]["name"]
 
 
-print(get_student_clg(2,2))
-print(get_student_clg(1,1))
-print(get_student_clg(1,3))
+#opentelemetry-instrument --traces_exporter console --metrics_exporter console uvicorn call:app1 --host 127.0.0.1 --port 300

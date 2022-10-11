@@ -1,12 +1,12 @@
 
-from flask import Flask
+from fastapi import FastAPI,Path
 from opentelemetry import trace, baggage
 from time import sleep
 from opentelemetry.launcher import configure_opentelemetry
 
 PORT = 8000
 
-app = Flask(__name__)
+app = FastAPI(__name__)
 tracer = trace.get_tracer(__name__)
 
 configure_opentelemetry(

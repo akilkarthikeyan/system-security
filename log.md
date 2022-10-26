@@ -30,7 +30,9 @@ call1.py --> call.py --> fastapi-demo.py
 ## Light Step
 * Used Light Step to visualize OpenTelemetry Data
 ![image](https://user-images.githubusercontent.com/76770419/194772202-5d396f53-0b1a-4326-8e5e-94ed2e056af2.png)
-
+* Light step explorer on an existing microservice
+![7](https://user-images.githubusercontent.com/80710226/198084438-107669ae-e516-4357-b1f9-565d14b9ee68.JPG)
+LINK-[link](https://app.lightstep.com/play/explorer?snapshot_id=Hwg4YmnWtk&selected_node_id=android)
 ## Jaeger 
 * Went through documentation [link](https://www.jaegertracing.io/docs/1.38/getting-started/) 
 

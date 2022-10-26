@@ -1,5 +1,4 @@
-## Day 1, 28-09-2022
-
+## Dependabot, FastAPI
 * Ran dependabot on eShopContainersOnDev [link](https://github.com/dotnet-architecture/eShopOnContainers)
 ![image](https://user-images.githubusercontent.com/80710226/192774789-33d021ff-75a8-488d-bfa5-b46df5e966f8.png)
 * Ran codeQL(code scanner) on eShopContainerOnDev [link](https://github.com/dotnet-architecture/eShopOnContainers)
@@ -9,7 +8,15 @@
 * Watched FastAPI Tutorial [link](https://www.youtube.com/watch?v=7t2alSnE2-I)
 * Created MultiAPI calls
 
-## Day 2, 9-10-2022
+## OpenTelemetry
+* Went through OpenTelemetry Documentation for Flask and FastAPI [link](https://opentelemetry.io/docs/instrumentation/python/getting-started/)
+* Ran Automatic Instrumentation for both Flask and FastAPI 
+* Went through Manual Instrumentation [link](https://opentelemetry.io/docs/instrumentation/python/manual/)
 
-* Light Step
+## Light Step
+* Used Light Step to visualize OpenTelemetry Data
 ![image](https://user-images.githubusercontent.com/76770419/194772202-5d396f53-0b1a-4326-8e5e-94ed2e056af2.png)
+
+## Jaeger 
+
+

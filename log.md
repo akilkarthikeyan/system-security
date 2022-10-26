@@ -12,9 +12,11 @@
 * Went through OpenTelemetry Documentation for Flask and FastAPI [link](https://opentelemetry.io/docs/instrumentation/python/getting-started/)
 * Ran Automatic Instrumentation for both Flask and FastAPI 
 * Went through Manual Instrumentation [link](https://opentelemetry.io/docs/instrumentation/python/manual/)
-* Telemetry output for single api
+* Telemetry output for single api 
+
 ![image](https://user-images.githubusercontent.com/80710226/198081508-4b336033-ba34-4301-926a-94be5dc6c149.JPG)
 ![image](https://user-images.githubusercontent.com/80710226/198081579-07075502-1076-434a-b78f-072b51579862.JPG)
+
 * Telemetry output for 3 programs api calls
 #### Work Flow -
 call1.py --> call.py --> fastapi-demo.py
@@ -32,7 +34,7 @@ call1.py --> call.py --> fastapi-demo.py
 ![image](https://user-images.githubusercontent.com/76770419/194772202-5d396f53-0b1a-4326-8e5e-94ed2e056af2.png)
 * Light step explorer on an existing microservice
 ![7](https://user-images.githubusercontent.com/80710226/198084438-107669ae-e516-4357-b1f9-565d14b9ee68.JPG)
-LINK-[link](https://app.lightstep.com/play/explorer?snapshot_id=Hwg4YmnWtk&selected_node_id=android)
+Link - [link](https://app.lightstep.com/play/explorer?snapshot_id=Hwg4YmnWtk&selected_node_id=android)
 ## Jaeger 
 * Went through documentation [link](https://www.jaegertracing.io/docs/1.38/getting-started/) 
 

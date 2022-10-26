@@ -13,8 +13,8 @@
 * Ran Automatic Instrumentation for both Flask and FastAPI 
 * Went through Manual Instrumentation [link](https://opentelemetry.io/docs/instrumentation/python/manual/)
 * Telemetry output for single api
-![1](https://user-images.githubusercontent.com/80710226/198081508-4b336033-ba34-4301-926a-94be5dc6c149.JPG)
-![2](https://user-images.githubusercontent.com/80710226/198081579-07075502-1076-434a-b78f-072b51579862.JPG)
+![image](https://user-images.githubusercontent.com/80710226/198081508-4b336033-ba34-4301-926a-94be5dc6c149.JPG)
+![image](https://user-images.githubusercontent.com/80710226/198081579-07075502-1076-434a-b78f-072b51579862.JPG)
 * Telemetry output for 3 programs api calls
 #### Work Flow -
 call1.py --> call.py --> fastapi-demo.py

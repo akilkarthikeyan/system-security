@@ -11,12 +11,12 @@ ports = [7001, 7002]
 def index():
     return "A1"
 
-@app.get('/getConstructorInfo')
-def constructorInfo():
+@app.get('/getNodeInfo')
+def nodeInfo():
     data = {}
     final = {}
     for port in ports:
-        URL = "http://127.0.0.1:" + str(port) + "/getConstructorInfo"
+        URL = "http://127.0.0.1:" + str(port) + "/getNodeInfo"
         r = requests.get(url = URL)
         temp = r.json()
         for key in temp:

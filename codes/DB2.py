@@ -5,34 +5,17 @@ import uvicorn
 
 app = FastAPI()
 
-constructors = {
-    3 : {
-        "name": "Pagani",
-        "races": 18,
-        "drivers": 2,
-        "wins": 101 
-    }, 
-    4 : {
-        "name": "Bugatti",
-        "races": 91,
-        "drivers": 31,
-        "wins": 0 
-    }
+data = {
+    "DB2" : "beqiobvceqoi"
 }
-
-class Constructor(BaseModel):
-    name: str
-    races: int
-    drivers: int
-    wins: int
 
 @app.get('/')
 def index():
     return "DB2"
 
-@app.get('/getConstructorInfo')
-def constructorInfo():
-    return constructors
+@app.get('/getNodeInfo')
+def nodeInfo():
+    return data
 
 if __name__ == '__main__':
     uvicorn.run(app, port = 7002, host='127.0.0.1')

@@ -22,3 +22,8 @@ def nodeInfo():
             data[key] = temp[key]
     final[label] = data
     return final
+
+ports = [7001, 8002]
+label = 'B4'
+if __name__ == '__main__':
+	uvicorn.run(app, port = 8003, host = '127.0.0.1')

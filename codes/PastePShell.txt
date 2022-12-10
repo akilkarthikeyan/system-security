@@ -1,0 +1,2 @@
+REM make a bat file and run in powershell
+start "" "C:\Program Files\VcXsrv\vcxsrv.exe" :0 -multiwindow -clipboard -wgl -ac

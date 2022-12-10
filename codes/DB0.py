@@ -19,6 +19,6 @@ def nodeInfo():
 
 name = fake.name()
 
-label = 'DB1'
+label = 'DB0'
 if __name__ == '__main__':
-	uvicorn.run(app, port = 7002, host = '127.0.0.1')
+	uvicorn.run(app, port = 7001, host = '127.0.0.1')

@@ -6,9 +6,9 @@ import uvicorn
 
 app = FastAPI()
 
-# @app.get('/')
-# def index():
-#     return "A1"
+@app.get('/')
+def index():
+    return label
 
 @app.get('/getNodeInfo')
 def nodeInfo():
@@ -23,7 +23,7 @@ def nodeInfo():
     final[label] = data
     return final
 
-ports = [7001, 7002]
+ports = [7001, 8002]
 label = 'B2'
 if __name__ == '__main__':
-	uvicorn.run(app, port = 8001, host = '127.0.0.1')
+	uvicorn.run(app, port = 8003, host = '127.0.0.1')

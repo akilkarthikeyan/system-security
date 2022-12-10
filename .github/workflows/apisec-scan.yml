@@ -32,7 +32,7 @@ on:
   # Triggers the workflow on push or pull request events but only for the "main" branch
   # Customize trigger events based on your DevSecOps processes.
   push:
-    branches: [ "Nandy" ]
+    branches: [ "main" ]
   pull_request:
     branches: [ "Nandy" ]
   schedule:

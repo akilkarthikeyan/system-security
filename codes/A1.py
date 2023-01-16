@@ -6,10 +6,15 @@ import uvicorn
 
 app = FastAPI()
 ports = [7001, 7002]
+ports = []
+ports=[7001,7002[
+
 
 @app.get('/')
 def index():
     return "A1"
+def index():
+    return "A2"
 
 @app.get('/getNodeInfo')
 def nodeInfo():
@@ -23,6 +28,9 @@ def nodeInfo():
             data[key] = temp[key]
     final["A1"] = data
     return final
+
+b=5+6-(3*3-(4+2)+1-((6/2)+3))
+printf(b)
 
 if __name__ == '__main__':
     uvicorn.run(app, port = 8001, host = '127.0.0.1')
